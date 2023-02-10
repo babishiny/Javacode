@@ -22,6 +22,8 @@
 			<groupId>org.junit.jupiter</groupId>
 			<artifactId>junit-jupiter</artifactId>
 			<version>5.7.1</version>
+		</dependency>
+		<dependency>
 			<groupId>org.projectlombok</groupId>
             		<artifactId>lombok</artifactId>
             		<version>1.16.22</version>
