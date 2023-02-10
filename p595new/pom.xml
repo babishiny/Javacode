@@ -3,7 +3,10 @@
   <groupId>testset1</groupId>
   <artifactId>testset1</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  
+  <properties>
+ <maven.compiler.source>14</maven.compiler.source>
+ <maven.compiler.target>14</maven.compiler.target>
+</properties>
 
   <dependencies>
 	  <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api -->
@@ -28,6 +31,7 @@
 		 <groupId>org.apache.maven.plugins</groupId>
     	 <artifactId>maven-surefire-plugin</artifactId>
     	 <version>3.0.0-M5</version>
+    	 
 	  </plugin> 
   </plugins>
  </build>
