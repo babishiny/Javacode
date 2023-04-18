@@ -2,7 +2,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.*;
 
-public class Testnow6 {
+public class Testnow {
     @Test
     public void test_JUnit() {
         System.out.println("This is the testcase in this class");
