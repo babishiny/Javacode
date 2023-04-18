@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: Testnow6
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.002 s <<< FAILURE! - in Testnow6
+Testnow6.test_JUnit  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <This is the testcase in this class> but was: <Not to match>
+	at Testnow6.test_JUnit(Testnow6.java:10)
+
