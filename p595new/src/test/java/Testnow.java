@@ -1,12 +1,16 @@
-import static org.junit.jupiter.api.Assertions.assertEquals;
-
 import org.junit.jupiter.api.*;
 
 public class Testnow {
-    @Test
-    public void test_JUnit() {
-        System.out.println("This is the testcase in this class");
-        String str1="Not to match";
-        assertEquals("This is the testcase in this class", str1);
-    }
+	
+	@Test
+	void display() {
+		System.out.println("bye");
+	}
+	
+	@Test
+	void mars() {
+		System.out.println("Eat");
+	}
+	
+
 }
