@@ -11,6 +11,5 @@ public class Testnow {
 	void mars() {
 		System.out.println("Eat");
 	}
-	
 
 }
