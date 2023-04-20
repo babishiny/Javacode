@@ -6,4 +6,3 @@ COPY pom.xml /usr/local/service/pom.xml
 COPY src/test/java /usr/local/service
 WORKDIR /usr/local/service
 RUN mvn package
-CMD ["java", "-jar", "/testset1-1.0-SNAPSHOT.jar", "com.example.app"]
