@@ -1,6 +1,6 @@
 FROM ubuntu:16.04
 MAINTAINER Babi Shiny (babishiny@gmail.com)
-RUN openjdk-8-jdk
+ENV JAVA_HOME /Library/Java/JavaVirtualMachines/jdk-17.jdk/Contents/Home
 RUN apt-get update -y
 RUN apt-get install -y maven
 COPY pom.xml /usr/local/service/pom.xml
