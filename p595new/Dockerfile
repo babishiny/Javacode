@@ -1,8 +1,5 @@
-FROM ubuntu:16.04
+FROM openjdk:17
 MAINTAINER Babi Shiny (babishiny@gmail.com)
-ARG JAVA=/Library/Java/JavaVirtualMachines/jdk-17.jdk/Contents/Home
-ENV JAVA_HOME=${JAVA}
-RUN export JAVA_HOME
 RUN apt-get update -y
 RUN apt-get install -y maven
 COPY pom.xml /usr/local/service/pom.xml
