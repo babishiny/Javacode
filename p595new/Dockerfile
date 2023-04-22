@@ -1,5 +1,6 @@
 FROM ubuntu:16.04
 MAINTAINER Babi Shiny (babishiny@gmail.com)
+RUN openjdk-8-jdk
 RUN apt-get update -y
 RUN apt-get install -y maven
 COPY pom.xml /usr/local/service/pom.xml
