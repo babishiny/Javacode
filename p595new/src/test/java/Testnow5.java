@@ -6,7 +6,7 @@ public class Testnow5 {
     @Test
     public void test_JUnit() {
         System.out.println("This is the updated test case");
-        String str1="This is the testcase in this class";
+        String str1="This is the updated test case";
         assertEquals("This is the updated test case", str1);
     }
 }
