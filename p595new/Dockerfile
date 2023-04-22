@@ -1,6 +1,7 @@
 FROM ubuntu:16.04
 MAINTAINER Babi Shiny (babishiny@gmail.com)
-ENV JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-17.jdk/Contents/Home
+ARG JAVA=/Library/Java/JavaVirtualMachines/jdk-17.jdk/Contents/Home
+ENV JAVA_HOME=${JAVA}
 RUN export JAVA_HOME
 RUN apt-get update -y
 RUN apt-get install -y maven
