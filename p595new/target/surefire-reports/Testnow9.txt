@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: Testnow9
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.072 s <<< FAILURE! - in Testnow9
-Testnow9.test_JUnit  Time elapsed: 0.034 s  <<< FAILURE!
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.083 s <<< FAILURE! - in Testnow9
+Testnow9.test_JUnit  Time elapsed: 0.035 s  <<< FAILURE!
 org.opentest4j.AssertionFailedError: expected: <A different failure> but was: <Not to match>
 	at Testnow9.test_JUnit(Testnow9.java:10)
 
