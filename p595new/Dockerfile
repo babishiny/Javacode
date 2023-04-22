@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM ubuntu:16.04
 MAINTAINER Babi Shiny (babishiny@gmail.com)
 RUN apt-get update -y
 RUN apt-get install -y maven
